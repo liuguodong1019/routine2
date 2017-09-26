@@ -1,0 +1,16 @@
+#course .dropdown-header .dropdown-header .pull-left {
+    width: calc((100% - 76px) / 4);
+}
+
+#course .dropdown-header .list-inline .pull-left {
+    width: calc((100% - 76px) / 4);
+}
+
+#course_list li div.pull-left:nth-child(4) {
+    padding-top: 24px;
+}
+
+#course_list li div.pull-left:nth-child(4) span.text-justify {
+    display: block;
+    line-height: 19px;
+}

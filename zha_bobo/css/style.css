@@ -1,0 +1,278 @@
+html,body{
+    min-width: 880px;
+}
+.container {
+    min-width: 800px;
+}
+.navbar-nav>li{
+    float: left;
+}
+.navbar-nav{
+    margin: 0;
+}
+body {
+    background: #f8f8f8;
+}
+
+.dhs {
+    background: #022031;
+    margin-bottom: 30px;
+}
+
+.dhs .container {
+    height: 90px;
+    padding-right: 0;
+}
+
+/*****************************/
+
+.navbar-brand {
+    height: 100%;
+    color: #44affd;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0;
+}
+
+.classify-nav {
+    height: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.nav > li.active a {
+    color: #67bfff;
+}
+
+.navbar-nav > li > a {
+    height: 90px;
+    color: #f8f8f8;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0 30px;
+}
+
+.navbar-nav:last-child li > a {
+    padding: 0;
+    padding-left: 40px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    color: #67bfff;
+    background: none;
+}
+
+.nav > li > a:hover span, .nav > li > a:focus span {
+    color: #67bfff;
+    background: none;
+}
+
+.nav > li > a:hover span.glysphicon-home, .nav > li > a:focus span.glysphicon-home {
+    background: url("../images/go-home.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.nav > li > a:hover span.glypsshicon-off, .nav > li > a:focus span.glypsshicon-off {
+    background: url("../images/go-colse.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.img-home {
+    display: inline-block;
+    width: 21px;
+    margin-right: 3px;
+    position: relative;
+    top: -5px;
+}
+
+.user-name {
+    font-size: 14px;
+}
+
+.glysphicon-home {
+    display: inline-block;
+    width: 20px;
+    height: 21px;
+    background: url("../images/go-home.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    top: 2px;
+}
+
+.glypsshicon-off {
+    display: inline-block;
+    width: 20px;
+    height: 21px;
+    background: url("../images/go-colse.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    top: 3px;
+}
+
+/************************************/
+
+.dropdown-header {
+    padding-top: 0px;
+}
+
+.list-inline {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.left_box .row {
+    background: #ffffff;
+}
+
+.h5 {
+    display: block;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+div.list-inline {
+    height: 60px;
+    line-height: 60px;
+    border-top: 1px solid #e0e0e0;
+    background: #f5f5f5;
+    overflow: hidden;
+}
+
+.dropdown-header .list-inline .pull-right {
+    width: 76px;
+    text-align: left;
+}
+.dropdown-header .list-inline .pull-left{
+    width: calc(100% - 76px);
+}
+
+.checkbox {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    margin-right: 8px;
+    top: -2px;
+}
+
+span.text-justify {
+    font-size: 14px;
+    color: #aaaaaa;
+    font-weight: 400;
+}
+
+.dropdown-header .dropdown-header span.text-justify {
+    color: #888888;
+}
+
+ul.list-inline li {
+    display: block;
+    height: 76px;
+    line-height: 76px;
+    border-bottom: 1px solid #eeeeee;
+    padding: 0;
+}
+
+ul.list-inline li div {
+    height: 100%;
+}
+
+ul.list-inline li div.pull-right span {
+    display: inline-block;
+    color: #888888;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+}
+ul.list-inline li div.pull-right span:last-child {
+    margin: 0;
+}
+
+ul.list-inline li div.pull-right span:hover {
+    color: #1f95ec;
+}
+
+.btn-box {
+    overflow: hidden;
+}
+
+ul.list-inline.btn-box li {
+    height: 52px;
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+
+.btn-box span.text-justify {
+    font-size: 14px;
+}
+
+.btn-box .btn-primary {
+    width: 79px;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0;
+    background-color: rgba(31, 149, 236, 1);
+    border-radius: 3px 3px 3px 3px;
+    margin: 30px 0 33px 0;
+    border: none;
+}
+
+.btn-box .btn-primary:hover {
+    border: none;
+}
+
+ul.list-inline button.del {
+    width: 52px;
+    height: 22px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: rgba(31, 149, 236, 1);
+    border-radius: 3px 3px 3px 3px;
+    padding: 0;
+    margin: 0;
+    margin-left: 22px;
+}
+
+ul.list-inline button.del:hover {
+    color: #fff;
+    background-color: #3071a9;
+    border-color: #285e8e;
+}
+
+.paging {
+    margin-bottom: 287px;
+}
+
+.pagination > li > a {
+    width: 26px;
+    height: 25px;
+    font-size: 14px;
+    color: #888888;
+    line-height: 24px;
+    padding: 0;
+    margin-right: 10px;
+    background: #eeeeee;
+    border: none;
+}
+
+.pagination > li:first-child > a {
+    border-radius: 0;
+}
+
+.pagination > li:last-child > a {
+    border-radius: 0;
+}
+
+.pagination > li:last-child > a {
+    width: 46px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+input[type="number"]{-moz-appearance:textfield;}
+

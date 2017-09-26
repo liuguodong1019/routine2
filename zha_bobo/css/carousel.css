@@ -1,0 +1,19 @@
+#carousel .dropdown-header .list-inline .pull-left{
+    width: 130px;
+    margin-right: 175px;
+}
+#carousel .dropdown-header .dropdown-header .pull-left:nth-child(2){
+ text-align: center;
+}
+#carousel_list .pull-left{
+    line-height: 119px;
+}
+#carousel ul.list-inline li{
+    height: 120px;
+}
+.yulantu{
+    display: inline-block;
+    width: 130px;
+    height: 80px;
+    margin: 20px auto;
+}

@@ -1,0 +1,126 @@
+10
+
+dir
+0
+https://acer-pc:8443/svn/routine/system/language/english
+https://acer-pc:8443/svn/routine
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7d9f584a-132c-c047-920e-cdf50e075926
+
+number_lang.php
+file
+
+
+
+add
+
+calendar_lang.php
+file
+
+
+
+add
+
+ftp_lang.php
+file
+
+
+
+add
+
+migration_lang.php
+file
+
+
+
+add
+
+pagination_lang.php
+file
+
+
+
+add
+
+date_lang.php
+file
+
+
+
+add
+
+form_validation_lang.php
+file
+
+
+
+add
+
+unit_test_lang.php
+file
+
+
+
+add
+
+profiler_lang.php
+file
+
+
+
+add
+
+imglib_lang.php
+file
+
+
+
+add
+
+index.html
+file
+
+
+
+add
+
+upload_lang.php
+file
+
+
+
+add
+
+db_lang.php
+file
+
+
+
+add
+
+email_lang.php
+file
+
+
+
+add
+

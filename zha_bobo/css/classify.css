@@ -1,0 +1,12 @@
+#classify .dropdown-header .list-inline .pull-left{
+    width: calc((100% - 76px)/3);
+}
+
+#classify_list li div:nth-child(3) span.text-justify {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    background: url("../images/upimg.png")no-repeat;
+    background-size: 100% 100%;
+    margin-top: 16px;
+}
